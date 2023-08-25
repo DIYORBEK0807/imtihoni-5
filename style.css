@@ -1,0 +1,227 @@
+
+.umumiy{
+    width: 1440px;
+}
+.menu{
+    display: none;
+}
+header nav .logo{
+  margin-left: 80px;
+  margin-top: 32px;
+  width: 91px;
+  height: 26px;
+}
+header nav .one{
+    display: flex;
+
+}
+header nav ul{
+    margin-left: 615px;
+    margin-top: 38px;
+}
+header nav ul a{
+   margin-left: 40px;
+   text-decoration: none;
+   color: var(--ui-resources-background-dark-2, #2B2B2B);
+    font-family: Poppins;
+    font-size: 16px;
+}
+.text h1{
+    width: 1300px;
+    color: var(--text-text-primary, #2A2A2A);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 65.34px;
+    margin-left: -20px;
+    margin-top: 90px;
+
+}
+.text p{
+    width: 1300px;
+    color: var(--text-text-secondary, #2B2B2B);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    margin-top: -38px;
+}
+.text button{
+    width: 251px;
+    height: 56px;
+    border-radius: 67px;
+    background: var(--color-brand-green, #285E67);
+    color: var(--surface-surface-primary, #FFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 21.33px;
+    border: none;
+    margin-left: 520px;
+    margin-top: 20px;
+    }
+    .img{
+        display: flex;
+        margin-left: 90px;
+        margin-top: 56px;
+    }
+    .img img{
+        width: 526px;
+        height: 351px;     
+    }
+    .img .da{
+    margin-left: 40px;
+    }
+    .finish{
+        border-radius: 12px;
+        width: 1090px;
+        height: 346px;
+        background: var(--text-text-invert, #F4F4F4);
+        margin-left: 90px;
+        margin-top: 80px;
+    }
+    .finish h2{
+        width: 589px;
+        color: var(--text-text-secondary, #2B2B2B);
+        font-family: Poppins;
+        font-size: 43.52px;
+        margin-top: 50px;
+        letter-spacing: 2px;
+        margin-left: 70px;
+        position: absolute;
+    }
+    .box1{
+        display: flex;
+    }
+
+    .minbox img{
+        width: 40px;
+    }
+    .minbox p{
+        color: var(--text-text-secondary, #2B2B2B);
+        font-family: Poppins;
+        font-size: 16px;
+        width: 200px;
+    }
+    .minbox{
+        margin-top: 150px;
+        margin-left: 80px;
+    }
+    .minbox2 img{
+        width: 40px;
+        
+    }
+    .minbox2 p{
+        color: var(--text-text-secondary, #2B2B2B);
+        font-family: Poppins;
+        font-size: 16px;
+        width: 200px;
+    }
+    .minbox2{
+        margin-top: 150px;
+        margin-left: 70px;
+    }
+    .but{
+        margin-top: 95px;
+        width: 245px;
+        height: 249px;
+        margin-left: 110px;
+    }
+    @media(max-width:1024px){
+        header nav ul{
+            margin-left: 350px;
+        }
+        .text h1{
+            width: 800px;
+        color: var(--text-text-primary, #2A2A2A);
+        text-align: center;
+        font-family: Poppins;
+        font-size: 75.34px;
+        margin-left: 100px;
+        margin-top: 50px;
+        }
+        .umumiy{
+            width: 1024px;
+        }
+        .text p{
+            width: 500px;
+            margin-left: 250px;
+        }
+        .text button{
+            margin-left: 410px;
+            width: 200px;
+        }
+        .img img{
+            width: 350px;
+            margin-left: 50px;
+        }
+        .finish h2{
+            margin-left: 150px;
+
+        }
+        .finish{
+            width: 750px;
+            margin-left: 140px;
+        }
+        .finish .but{
+            display: none;
+        }
+        .minbox{
+            margin-left: 150px;
+        }
+        .menu{
+            display: none;
+        }
+    }
+    @media(max-width: 430px){
+        header .logo{
+            width: 91px;
+        }
+        header ul a{
+            display: none;
+        }
+        .menu{
+            display: block;
+            width: 24px;
+            height: 24px;
+            margin-left: 0px;
+            margin-top: 40px;
+        }
+        .text h1{
+            width: 480px;
+            font-size: 59px;
+            margin-left: 70px;
+        }
+        .text p{
+            margin-left: 155px;
+            width: 300px;
+            margin-top: -20px;
+        }
+        .text button{
+            margin-left: 220px;
+            width: 200px;
+        }
+        .img img{
+            width: 450px;
+            margin-left: -5px;
+        }
+        .img .da{
+            width: 450px;
+            margin-top: 400px;
+            margin-left: -450px;
+        }
+        .finish{
+            width: 450px;
+            height: 600px;
+            margin-left: 85px;
+        }
+        .finish h2{
+            width: 250px;
+            text-align: center;
+            margin-left: 100px;
+        }
+        .finish .minbox{
+        margin-top: 220px;
+        }
+        .finish .minbox2{
+            margin-top: 430px;
+            margin-left: -200px;
+        }
+    }
